@@ -1,0 +1,596 @@
+body{
+    background-color: rgb(6, 4, 24);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@keyframes links{
+    from{
+        opacity: 0;
+        transform: translateX(-340px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/* .details ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    animation: slideIn 0.5s ease forwards;
+} */
+
+/* Keyframes for the animation */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 4, 24);
+    color: white;
+    min-width: 100%;
+    height: 55px;
+    position: sticky;
+    
+    /* text-decoration: dashed; */
+
+}
+.mysecondimg{
+    height: 300px;
+    object-fit: cover;
+}
+
+.line1 {
+    min-width: 100%;
+    height: 1px;
+    background-color: rgb(79, 74, 74);
+}
+
+
+
+.details ul li {
+    list-style: none;
+    cursor: pointer;
+    animation: slideIn 0.5s ease forwards;
+    font-size: 25px;
+
+}
+li:hover{
+    color:#EDD59E;
+    
+}
+
+.details ul {
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+
+}
+
+.myprotfolio {
+    margin: 15px;
+    list-style: none;
+    font-size: 25px;
+}
+
+
+.right img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(130, 126, 126);
+}
+
+.firstmain {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 12, 35);
+    color: white;
+    padding-top: 95px;
+
+}
+
+.welcome {
+    color: rgb(198, 198, 9);
+    font-size: 15px;
+}
+
+.myname {
+    padding-top: 20px;
+
+}
+
+.contactus {
+    background-color: rgb(255, 255, 0);
+    /* color:black; */
+    /* padding-top: 10px; */
+    border-radius: 7px;
+    width: 99px;
+    height: 36px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.matter {
+    padding-top: 15px;
+    color: rgb(160, 153, 153);
+    font-weight: 500;
+}
+
+.left2 img {
+    width: 200px;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 5px rgb(19, 18, 18); */
+
+}
+
+.line2 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(79, 74, 74);
+}
+
+.secondmain {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(6, 4, 24);
+    color: white;
+    padding-top: 95px;
+}
+
+.me {
+    color: yellow;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.matter2 {
+    padding-top: 20px;
+}
+
+.education {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.line3 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(79, 74, 74);
+}
+
+.thirdmain {
+    background-color: rgb(14, 12, 35);
+    color: white;
+
+}
+
+.detail {
+    font-size: 30px;
+    font-weight: 600;
+    color: yellow;
+}
+
+.educationdetails {
+    padding: 90px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+@keyframes animate{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+       opacity: 1;
+       transform: translateY(0px);
+    }
+}
+
+.box1 {
+    cursor: pointer;
+    min-width: 18vw;
+    min-height: 30vh;
+    /* border: 2px solid; */
+    background-color: rgb(7, 4, 28);
+    border: 1px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    animation: animate;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.box2 {
+    cursor: pointer;
+    min-width: 18vw;
+    min-height: 30vh;
+    border: 2px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    background-color: rgb(7, 4, 28);
+    animation: animate;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.box3 {
+    cursor: pointer;
+    min-width: 18vw;
+    min-height: 30vh;
+    border: 5px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    background-color: rgb(7, 4, 28);
+    animation: animate;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    
+}
+
+.btech {
+    padding-top: 50px;
+    padding-left: 97px;
+
+}
+
+.info1 {
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: 500;
+    color: rgb(168, 162, 162);
+}
+
+.inter {
+    padding-top: 50px;
+    padding-left: 85px;
+}
+
+.info2 {
+    color: rgb(168, 162, 162);
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: 500;
+}
+
+.ssc {
+    padding-top: 50px;
+    padding-left: 125px;
+}
+
+.info3 {
+    color: rgb(168, 162, 162);
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: 500;
+}
+
+/* For screens smaller than 600px (phones) */
+@media only screen and (max-width: 430px) {
+
+    .navbar {
+        
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .details ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .myprotfolio {
+        margin-bottom: 15px;
+    }
+
+    .right img {
+        width: 150px;
+    }
+
+    .firstmain,
+    .secondmain,
+    .thirdmain
+    .fourthmain,
+    .fifthmain {
+        padding: 20px;
+    }
+
+    .left,
+    .right,
+    .left2,
+    .right2,
+    .educationdetails {
+        text-align: center;
+    }
+
+    .boxes {
+        flex-direction: column;
+        /* text-align: center; */
+        gap: 20px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .btech,
+    .inter,
+    .ssc {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .info1,
+    .info2,
+    .info3 {
+        padding-left: 0;
+        text-align: center;
+    }
+    .skillboxes {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skillbox1,
+    .skillbox2,
+    .skillbox3 {
+        width: 80%;
+        height: 190px;
+    }
+
+    .programming,
+    .technologies,
+    .others {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .skill1,
+    .skill2,
+    .skill3 {
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 500;
+        color: rgb(168, 162, 162);
+    }
+
+    .linksimages {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .linksimages img {
+        max-width: 40px;
+        margin: 0 10px; /* Adjust margin as needed */
+        border-radius: 50%;
+    }
+
+
+
+
+
+}
+
+.line4 {
+    width: 100%;
+    height: 1px;
+    margin-top: 80px;
+    background-color: rgb(79, 74, 74);
+}
+
+.fourthmain {
+    /* padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    background-color: rgb(6, 4, 24);
+    color: white;
+
+}
+
+.skills {
+    padding: 90px;
+
+
+
+}
+
+.my {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.skillss {
+    font-size: 30px;
+    font-weight: 600;
+    color: yellow;
+}
+
+.skillboxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.skillbox1 {
+    min-width: 18vw;
+    min-height: 30vh;
+    border: 2px solid;
+    background-color: rgb(14, 12, 35);
+    border: 1px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    animation: animate;
+    animation-duration: 4s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.skillbox2 {
+    min-width: 18vw;
+    min-height: 30vh;
+    border: 2px solid;
+    background-color: rgb(14, 12, 35);
+    border: 1px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    animation: animate;
+    animation-duration: 4s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.skillbox3 {
+    min-width: 18vw;
+    min-height: 30vh;
+    border: 2px solid;
+    background-color: rgb(14, 12, 35);
+    border: 1px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    animation: animate;
+    animation-duration: 4s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.programming {
+    padding-top: 50px;
+    /* padding-left: 50px; */
+    text-align: center;
+}
+
+.technologies {
+    padding-top: 50px;
+    /* padding-left: 67px; */
+    text-align: center;
+}
+
+.others {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.skill1 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 500;
+
+    color: rgb(168, 162, 162);
+}
+
+.skill2 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(168, 162, 162);
+}
+
+.skill3 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(168, 162, 162);
+}
+.line5{
+    min-width: 100%;
+    height: 1px;
+    background-color: rgb(79, 74, 74);
+    margin-top: 80px;
+}
+.fifthmain{
+    background-color: rgb(14, 12, 35);
+    color: white;
+}
+.linksimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.linksimages img{
+    margin-top: -50px;
+    max-width: 70px;
+    border-radius: 50px;
+}
+.line6{
+    min-width: 100%;
+    height: 1px;
+    background-color: rgb(79, 74, 74);
+    margin-top: 2px;
+}
+.social-links{
+    height: 20rem;
+}
+.twitter{
+    animation: links;
+    animation-duration:2s;
+    animation-timing-function:cubic-bezier(0.22, 1.39, 0.25, 1);
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+}
+.instagram{
+    animation: links;
+    animation-duration:2s;
+    animation-timing-function:cubic-bezier(0.22, 1.39, 0.25, 1);
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+}
+.github{
+    animation: links;
+    animation-duration:2s;
+    animation-timing-function:cubic-bezier(0.22, 1.39, 0.25, 1);
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+}
+.linkedin{
+    animation: links;
+    animation-duration:2s;
+    animation-timing-function:cubic-bezier(0.22, 1.39, 0.25, 1);
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+}
